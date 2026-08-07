@@ -1,0 +1,4 @@
+interface:
+  display_name: "GC Selective Ink Sketch"
+  short_description: "Turn photos into selective ink sketches with intentional blank space"
+  default_prompt: "Use $gc-selective-ink-sketch to turn my attached photo into a selective observational pen-and-ink sketch with one local detail anchor, deliberate omission, broken contours, and no wash."

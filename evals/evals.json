@@ -1,0 +1,67 @@
+{
+  "skill_name": "gc-selective-ink-sketch",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "使用 GC Selective Ink Sketch，把这张雪山照片转成我的钢笔速写，直接生成。",
+      "expected_output": "Inspects the real source, selects landscape mode, preserves the ridge profile, dominant summit, tiny scale figure, crop, and foreground relationship; makes one mountain plane the sole high-completion anchor; lets cloud, snow, and sky become blank paper; uses visible directional hatching rather than wash; generates and inspects the raster.",
+      "files": [
+        "assets/example-source-snow-mountain.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "把我上传的巴洛克火车站照片画成钢笔建筑速写，保留穹顶和双塔，其他地方大胆省略。",
+      "expected_output": "Inspects the attached source, selects architecture mode, locks the real profile and vanishing directions, chooses one recognition-bearing facade anchor, simplifies repeated ornament, keeps broad walls and sky blank, and does not invent regional details or pseudo-text.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "这张跳跃人物照片要更有律动和破型感，但不要靠夸大鞋子制造动态。",
+      "expected_output": "Selects figure mode, locks the source action curve, countercurve, shoulder-hip relation, limb negative shapes, and supporting logic before controlled or strong form breaking; preserves anatomy and identity; keeps clothing mostly blank; ranks gesture rhythm above perspective exaggeration.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "把这张十六人海边合影画成不像 AI 的钢笔群像，人物数量和每个人的位置不能变。",
+      "expected_output": "Inspects the real group photo, preserves subject count, arrangement, identities, limbs, and crop; avoids beautification and uniform facial completion; uses selective identity anchors, uneven hand-drawn line hierarchy, and large blank clothing areas rather than polished illustrative rendering.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "把这张戴眼镜女生的半身照转成松一点的钢笔肖像，只突出眼镜、头发和手势。",
+      "expected_output": "Selects portrait mode, preserves facial geometry, age, expression, eyewear, hair, and gesture; uses one local identity anchor, sparse skin lines, loose hair overdraw, and intentional missing edges; does not beautify or fill the face with shading.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "把这张椰林海岸画成纯钢笔速写，植物不要逐叶描，海和天空不要晕染。",
+      "expected_output": "Selects landscape mode with plant treatment, locks growth axes and shoreline, samples only a few leaves, uses broken crown masses with internal white holes, keeps sea and sky as paper, and concentrates dark ink at one trunk or leaf convergence.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "只给我一条可复制 Prompt：把上传的老街照片变成有取舍和留白的钢笔速写。",
+      "expected_output": "Returns only one copy-ready image-edit prompt containing source lock, keep/simplify/omit plan, one density anchor, one focus-rendering method, controlled form breaking, blank-space rules, source orientation, and relevant hard avoids; does not render an image.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "只审查这张所谓钢笔速写为什么像照片滤镜，不要重画。",
+      "expected_output": "Does not generate a replacement; inspects the supplied image at thumbnail and full size, scores the six quality dimensions, cites evidence of universal outlines, equal detail, smooth gray, or missing hierarchy, and proposes one targeted correction at a time.",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "没有照片，凭文字帮我画一张巴黎街头钢笔速写。",
+      "expected_output": "Explains that this source-locked photo transformation skill requires a real attached photograph and asks the user to upload one instead of inventing a factual source or silently switching to text-to-image illustration.",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "把这张照片做成彩色水彩插画，天空要大面积湿画法晕染。",
+      "expected_output": "Should not trigger this skill because the requested colored watercolor and wet wash directly conflict with its pure monochrome pen-and-ink output contract.",
+      "files": []
+    }
+  ]
+}
