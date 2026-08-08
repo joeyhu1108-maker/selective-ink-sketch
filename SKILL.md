@@ -1,9 +1,9 @@
 ---
-name: gc-selective-ink-sketch
+name: selective-ink-sketch
 description: Turn a user-uploaded photograph into an original monochrome observational pen-and-ink sketch through deliberate omission, negative space, density control, and source fidelity. Use when the user asks for 钢笔速写, 建筑速写, 风景速写, 人物速写, 肖像速写, photo-to-ink sketch, architectural sketch, landscape sketch, figure sketch, portrait sketch, or wants an attached JPG/PNG/WebP photo redrawn with selective hand-drawn ink lines. Support global architecture, streets and spaces, mountains and natural scenes, full- or half-body figures, and portraits. Require a real source photo; do not use for text-only illustration briefs, watercolor, pencil, charcoal, vector tracing, or unrelated image styles.
 ---
 
-# GC Selective Ink Sketch
+# Selective Ink Sketch｜取舍钢笔速写
 
 把一张真实照片转译成独立的钢笔速写成稿。先观察、再删除、最后落线；不要把照片机械描边。
 

@@ -1,4 +1,4 @@
-# GC Selective Ink Sketch
+# Selective Ink Sketch｜取舍钢笔速写
 
 把用户上传的真实照片转成有取舍、有留白、保留现场笔触的黑白钢笔速写。支持全球建筑、街巷空间、自然风景、人物动态、群像与肖像。
 
@@ -15,7 +15,7 @@
 上传一张 JPG、PNG 或 WebP 照片，然后说：
 
 ```text
-使用 GC Selective Ink Sketch，把这张照片转成我的钢笔速写。
+使用 Selective Ink Sketch，把这张照片转成我的钢笔速写。
 ```
 
 可继续补充：
@@ -35,7 +35,7 @@
 ## 文件结构
 
 ```text
-gc-selective-ink-sketch/
+selective-ink-sketch/
 ├── SKILL.md
 ├── README.zh-CN.md
 ├── agents/openai.yaml

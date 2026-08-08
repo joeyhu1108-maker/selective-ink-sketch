@@ -1,9 +1,9 @@
 {
-  "skill_name": "gc-selective-ink-sketch",
+  "skill_name": "selective-ink-sketch",
   "evals": [
     {
       "id": 1,
-      "prompt": "使用 GC Selective Ink Sketch，把这张雪山照片转成我的钢笔速写，直接生成。",
+      "prompt": "使用 Selective Ink Sketch，把这张雪山照片转成我的钢笔速写，直接生成。",
       "expected_output": "Inspects the real source, selects landscape mode, preserves the ridge profile, dominant summit, tiny scale figure, crop, and foreground relationship; makes one mountain plane the sole high-completion anchor; lets cloud, snow, and sky become blank paper; uses visible directional hatching rather than wash; generates and inspects the raster.",
       "files": [
         "assets/example-source-snow-mountain.jpg"

@@ -1,4 +1,4 @@
-# GC Selective Ink Sketch
+# Selective Ink Sketch｜取舍钢笔速写
 
 把用户上传的真实照片转成有取舍、有留白、保留现场笔触的黑白钢笔速写。支持全球建筑、街巷空间、自然风景、人物动态、群像与肖像。
 
@@ -17,18 +17,18 @@
 把仓库目录复制到 Codex Skills 目录：
 
 ```bash
-git clone https://github.com/joeyhu1108-maker/gc-selective-ink-sketch.git
-cp -R gc-selective-ink-sketch ~/.codex/skills/gc-selective-ink-sketch
+git clone https://github.com/joeyhu1108-maker/selective-ink-sketch.git
+cp -R selective-ink-sketch ~/.codex/skills/selective-ink-sketch
 ```
 
-也可以下载 [发布 ZIP](dist/gc-selective-ink-sketch.zip) 后解压安装。
+也可以下载 [发布 ZIP](dist/selective-ink-sketch.zip) 后解压安装。
 
 ## 使用
 
 上传一张 JPG、PNG 或 WebP 照片，然后说：
 
 ```text
-使用 GC Selective Ink Sketch，把这张照片转成我的钢笔速写。
+使用 Selective Ink Sketch，把这张照片转成我的钢笔速写。
 ```
 
 可继续补充：
@@ -48,7 +48,7 @@ cp -R gc-selective-ink-sketch ~/.codex/skills/gc-selective-ink-sketch
 ## 包结构
 
 ```text
-gc-selective-ink-sketch/
+selective-ink-sketch/
 ├── SKILL.md
 ├── README.md
 ├── README.zh-CN.md
