@@ -5,6 +5,8 @@ description: Turn a user-uploaded photograph into an original monochrome observa
 
 # Selective Ink Sketch｜取舍钢笔速写
 
+> **许可提示 / License notice：** 本 Skill 按 [非商业使用许可](LICENSE.md) 提供。非商业学习、研究与分享可免费使用；商业集成、转售、收费服务、客户交付、品牌宣传，以及将生成作品用于商业项目，均须事先获得作者胡卓熠（Joey Hu）的明确书面授权。署名或 Fork 不构成授权。All commercial use, including commercial use of generated outputs, requires the author's prior written authorization. 授权申请见 [README.md](README.md#许可与商业授权)。
+
 把一张真实照片转译成独立的钢笔速写成稿。先观察、再删除、最后落线；不要把照片机械描边。
 
 ## 核心原则
